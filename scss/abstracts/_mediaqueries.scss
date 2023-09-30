@@ -1,0 +1,23 @@
+
+@media screen and (max-width: 52rem) {
+    body{
+        padding: 0;
+    }
+    .colors{
+        &__color{
+            width: 7rem;
+        }
+    }
+}
+
+
+@media screen and (max-width: 25rem) {
+    body{
+        padding: 0;
+    }
+    .colors{
+        &__color{
+            width: 5rem;
+        }
+    }
+}
